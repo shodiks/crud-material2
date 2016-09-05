@@ -1,6 +1,6 @@
 @section ('js')
 
-aas
+aasassa
 @extends('layouts.index')
 @section ('content')
 <div class="section">
