@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html>
 	<head>
 		<meta charset="utf-8">
@@ -31,7 +32,7 @@
 			$(function () {
 				$('.button-collapse').sideNav();
 			});
-			})	;
+			})	(jQuery);
 
 		//preloader js
 		$(window).load(function() {
@@ -39,7 +40,7 @@
 		});
 		//preloader end
 		</script>
-
+		
 		@section ('footer')
 		@include ('layouts.footer')
 		@show
