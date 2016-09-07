@@ -40,7 +40,8 @@
 		});
 		//preloader end
 		</script>
-		
+		@section ('js')
+
 		@section ('footer')
 		@include ('layouts.footer')
 		@show

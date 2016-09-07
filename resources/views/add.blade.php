@@ -30,7 +30,7 @@
 		coba add
 	</div>
 	<div class="section">
-		<form action="{{url('store')}}" method="POST" class="">
+		<form action="{{url('store')}}" method="POST" class="" enctype="multipart/form-data">
 			{!! csrf_field() !!}
 			<div class="row">
 				<div class="input-field col s12">
@@ -51,9 +51,9 @@
 				</div>
 			</div>
 
-			<div class="row">
+			<div class="row">   
 				<div class="input-field col s6">
-					<input type="file" id="input_gambar" name="gambar" class="validate">
+					<input type="file" id="inputgambar" name="gambar" class="validate">
 				</div>
 			</div>
 
