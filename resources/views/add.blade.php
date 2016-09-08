@@ -21,7 +21,7 @@
 </script>
 
 @stop
-
+ 
 
 @extends('layouts.index')
 @section ('content')

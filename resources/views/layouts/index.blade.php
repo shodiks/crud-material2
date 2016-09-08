@@ -26,7 +26,7 @@
 		</div>
 		
 		<script src="https://code.jquery.com/jquery-2.1.1.min.js" type="text/javascript"></script>
-		<script src="{{asset('materialize/js/materialize.min.js')}}" type="text/javascript" charset="utf-8" async defer></script>
+		<script src="{{asset('materialize/js/materialize.min.js')}}" type="text/javascript"></script>
 		<script type="text/javascript" charset="utf-8" async defer>
 		(function($) {
 			$(function () {
